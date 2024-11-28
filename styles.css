@@ -1,0 +1,107 @@
+/* Estilo Geral */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; 
+}
+
+/* Cabeçalho */
+header {
+    background-image: linear-gradient(135deg, #ff0000, #ffd103);
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* Container Principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Formulário */
+form {
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+}
+
+form h5 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+form .form-check-label {
+    font-size: 1rem;
+    color: #555;
+}
+
+form .form-check-input:checked {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+/* Botão Enviar */
+form button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+
+
+#resultSection h3 {
+    color: #ff0000;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#resultMessage {
+    color: #333;
+}
+
+/* Resultados */
+.result-low {
+    background-color: #f8d7da; 
+    color: #721c24; 
+    border: 2px solid #f5c6cb;
+}
+
+.result-medium {
+    background-color: #fff3cd;
+    border: 2px solid #ffeeba;
+}
+
+.result-high {
+    background-color: #d4edda; 
+    color: #155724; 
+    border: 2px solid #c3e6cb;
+}
+
+#resultMessage {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
